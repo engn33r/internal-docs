@@ -24,8 +24,3 @@ description: CI/CD flow for production and preview builds.
 - Triggered on merges to `main`.
 - Use long-lived secrets stored in the hosting provider’s secret store (e.g., Netlify env vars, Vercel project secrets).
 - Confirm the secure middleware is enabled before promoting the build.
-
-## Rollbacks
-
-- Retain at least the last two build artifacts so you can redeploy quickly.
-- Update the runbook section below if you automate rollbacks.
